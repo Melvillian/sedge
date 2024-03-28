@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
 )
 
 // Creates an empty file in a temp dir with "dependency" as name and add

@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/NethermindEth/sedge/templates"
+	"github.com/Melvillian/sedge/templates"
 )
 
 /*

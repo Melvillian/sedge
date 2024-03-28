@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/NethermindEth/sedge/internal/pkg/dependencies"
-	"github.com/NethermindEth/sedge/internal/utils"
+	"github.com/Melvillian/sedge/internal/pkg/dependencies"
+	"github.com/Melvillian/sedge/internal/utils"
 )
 
 var ErrMissingDependencies = errors.New("missing dependencies")

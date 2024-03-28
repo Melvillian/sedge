@@ -4,9 +4,9 @@ set -e
 cd /home/runner/work/sedge/sedge/sedge
 go install github.com/golang/mock/mockgen@v1.6.0
 go generate ./...
-mkdir -p build/package/debian/src/github.com/NethermindEth/sedge/
-rsync -aq . build/package/debian/src/github.com/NethermindEth/sedge/ --exclude build/ --exclude .git/ --exclude docs/
-cd build/package/debian/src/github.com/NethermindEth/sedge/ && go mod vendor
+mkdir -p build/package/debian/src/github.com/Melvillian/sedge/
+rsync -aq . build/package/debian/src/github.com/Melvillian/sedge/ --exclude build/ --exclude .git/ --exclude docs/
+cd build/package/debian/src/github.com/Melvillian/sedge/ && go mod vendor
 cd /home/runner/work/sedge/sedge/sedge
 
 export SVERSION=${VERSION#v}
@@ -22,7 +22,7 @@ cd ..
 echo 'Signing package'
 debsign -p 'gpg --batch --yes --no-tty --pinentry-mode loopback --passphrase-file /tmp/PASSPHRASE' -S -k$PPA_GPG_KEYID sedge_${SVERSION}_source.changes
 echo 'Uploading'
-dput -f ppa:nethermindeth/sedge sedge_${SVERSION}_source.changes
+dput -f ppa:Melvillian/sedge sedge_${SVERSION}_source.changes
 echo "Publishing Sedge to PPA complete"
 echo 'Cleanup'
 rm -r sedge_$SVERSION*

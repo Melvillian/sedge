@@ -16,7 +16,7 @@ limitations under the License.
 package generate
 
 import (
-	"github.com/NethermindEth/sedge/internal/pkg/clients"
+	"github.com/Melvillian/sedge/internal/pkg/clients"
 )
 
 // EnvData : Struct Data object to be applied to the docker-compose script environment (.env) template

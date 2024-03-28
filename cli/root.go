@@ -18,8 +18,8 @@ package cli
 import (
 	"strings"
 
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/utils"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/utils"
 	nested "github.com/antonfisher/nested-logrus-formatter"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

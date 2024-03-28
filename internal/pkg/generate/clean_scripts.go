@@ -23,7 +23,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/NethermindEth/sedge/configs"
+	"github.com/Melvillian/sedge/configs"
 	"gopkg.in/yaml.v2"
 )
 

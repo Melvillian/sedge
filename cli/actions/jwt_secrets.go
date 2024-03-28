@@ -20,8 +20,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/crypto"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/crypto"
 	log "github.com/sirupsen/logrus"
 )
 

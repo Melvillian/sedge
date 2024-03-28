@@ -19,7 +19,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/NethermindEth/sedge/configs"
+	"github.com/Melvillian/sedge/configs"
 	log "github.com/sirupsen/logrus"
 )
 

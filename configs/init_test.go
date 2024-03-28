@@ -3,7 +3,7 @@ package configs_test
 import (
 	"testing"
 
-	"github.com/NethermindEth/sedge/configs"
+	"github.com/Melvillian/sedge/configs"
 )
 
 func TestENRs_Uniqueness(t *testing.T) {

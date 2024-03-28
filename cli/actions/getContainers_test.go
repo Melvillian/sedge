@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NethermindEth/sedge/cli/actions"
-	"github.com/NethermindEth/sedge/configs"
-	sedge_mocks "github.com/NethermindEth/sedge/mocks"
+	"github.com/Melvillian/sedge/cli/actions"
+	"github.com/Melvillian/sedge/configs"
+	sedge_mocks "github.com/Melvillian/sedge/mocks"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"

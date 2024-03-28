@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/NethermindEth/sedge/tree/main/docs/',
+            'https://github.com/Melvillian/sedge/tree/main/docs/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -72,7 +72,7 @@ const config = {
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/NethermindEth/sedge',
+            href: 'https://github.com/Melvillian/sedge',
             label: 'GitHub',
             position: 'right',
           },
@@ -112,7 +112,7 @@ const config = {
               // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/NethermindEth/sedge',
+                href: 'https://github.com/Melvillian/sedge',
               },
             ],
           },

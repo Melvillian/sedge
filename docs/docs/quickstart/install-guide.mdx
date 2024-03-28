@@ -18,20 +18,20 @@ Downloading any binary from the internet risks downloading files that malicious,
 
 :::
 
-1. Download the correct binary for the machine you want to use for Sedge from the [releases page](https://github.com/NethermindEth/sedge/releases), i.e. choose the correct target OS / Arch. For example: if your machine is an Intel / M1 mac then download the `darwin-amd64` / `darwin-arm64` binary. You can also download the binary from the CLI (command line interface) or Terminal with `curl` and `wget`:
+1. Download the correct binary for the machine you want to use for Sedge from the [releases page](https://github.com/Melvillian/sedge/releases), i.e. choose the correct target OS / Arch. For example: if your machine is an Intel / M1 mac then download the `darwin-amd64` / `darwin-arm64` binary. You can also download the binary from the CLI (command line interface) or Terminal with `curl` and `wget`:
 
 <Tabs groupId="download-cmds">
   <TabItem value="curl" label="curl">
 
   ```
-  curl -L https://github.com/NethermindEth/sedge/releases/download/v<VERSION>/sedge-v<VERSION>-<OS>-<ARCH> --output sedge
+  curl -L https://github.com/Melvillian/sedge/releases/download/v<VERSION>/sedge-v<VERSION>-<OS>-<ARCH> --output sedge
   ```
 
   </TabItem>
   <TabItem value="wget" label="wget">
 
   ```
-  wget https://github.com/NethermindEth/sedge/releases/download/v<VERSION>/sedge-v<VERSION>-<OS>-<ARCH> -O sedge
+  wget https://github.com/Melvillian/sedge/releases/download/v<VERSION>/sedge-v<VERSION>-<OS>-<ARCH> -O sedge
   ```
 
   </TabItem>
@@ -50,7 +50,7 @@ First, install the Homebrew package manager using the [official install script](
 After installing Homebrew, you are ready to install Sedge by tapping into the official Sedge repository and installing it:
 
 ```
-brew install nethermindeth/sedge/sedge
+brew install Melvillian/sedge/sedge
 ```
 
 If you want to update Sedge, you can use the following commands:
@@ -63,7 +63,7 @@ If you want to remove Sedge, you can use:
 
 ```
 brew uninstall sedge
-brew untap nethermindeth/sedge
+brew untap Melvillian/sedge
 ```
 
 ## Using Go
@@ -79,7 +79,7 @@ If you want to install Sedge on an M1 mac, then you need the `darwin-arm64` pack
 This command will install the `sedge` executable along with the library and its dependencies in your system:
 
 ```
-go install github.com/NethermindEth/sedge/cmd/sedge@latest
+go install github.com/Melvillian/sedge/cmd/sedge@latest
 ```
 
 The executable will be in your `$GOBIN` (`$GOPATH/bin`).
@@ -112,7 +112,7 @@ Alpine: `sudo apk add alpine-sdk`
 With this method, you generate the binary manually (need Go installed), downloading and compiling the source code:
 
 ```
-git clone https://github.com/NethermindEth/sedge.git
+git clone https://github.com/Melvillian/sedge.git
 cd sedge
 mkdir -p build
 go build -o build/sedge cmd/sedge/main.go
@@ -121,7 +121,7 @@ go build -o build/sedge cmd/sedge/main.go
 or if you have `make` installed:
 
 ```
-git clone https://github.com/NethermindEth/sedge.git
+git clone https://github.com/Melvillian/sedge.git
 cd sedge
 make compile
 ```

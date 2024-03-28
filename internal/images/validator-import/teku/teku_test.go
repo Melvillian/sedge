@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/NethermindEth/sedge/internal/images/validator-import/teku"
+	"github.com/Melvillian/sedge/internal/images/validator-import/teku"
 	"github.com/stretchr/testify/assert"
 )
 

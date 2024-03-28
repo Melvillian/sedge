@@ -103,9 +103,9 @@ Happy Staking!
 	CheckpointUrlUsedWarning        = "A Checkpoint Sync Url will be used for the consensus node. Using %s ."
 	NoBootnodesFound                = "No bootnodes found in %s env file "
 	UnableToCheckVersion            = "Unable to check for new Version. Please check manually at " +
-		"https://github.com/NethermindEth/sedge/releases, with error:"
+		"https://github.com/Melvillian/sedge/releases, with error:"
 	NeedVersionUpdate = "A new Version of sedge is available. Please update to the latest Version. See " +
-		"https://github.com/NethermindEth/sedge/releases for more information. Latest detected tag:"
+		"https://github.com/Melvillian/sedge/releases for more information. Latest detected tag:"
 	VersionUpdated             = "You are running the latest version of sedge. Version: "
 	Downloading                = "Downloading %s..."
 	Copying                    = "Copying %s..."

@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"text/template"
 
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
 	"github.com/google/go-github/v47/github"
 )
 

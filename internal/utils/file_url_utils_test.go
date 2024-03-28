@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/test"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/test"
 )
 
 func TestHandleUrlOrPath(t *testing.T) {

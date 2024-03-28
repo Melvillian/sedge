@@ -19,7 +19,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/NethermindEth/sedge/internal/utils"
+	"github.com/Melvillian/sedge/internal/utils"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
 )

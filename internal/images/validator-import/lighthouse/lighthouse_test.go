@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/NethermindEth/sedge/internal/images/validator-import/lighthouse"
+	"github.com/Melvillian/sedge/internal/images/validator-import/lighthouse"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/utils"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/utils"
 )
 
 var (

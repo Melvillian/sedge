@@ -24,14 +24,14 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
-	"github.com/NethermindEth/sedge/internal/utils"
-	"github.com/NethermindEth/sedge/templates"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/internal/utils"
+	"github.com/Melvillian/sedge/templates"
 	log "github.com/sirupsen/logrus"
 )
 
-//go:generate mockgen -package=sedge_mocks -destination=../../../mocks/dependenciesManager.go github.com/NethermindEth/sedge/internal/pkg/dependencies DependenciesManager
+//go:generate mockgen -package=sedge_mocks -destination=../../../mocks/dependenciesManager.go github.com/Melvillian/sedge/internal/pkg/dependencies DependenciesManager
 type DependenciesManager interface {
 	Supported(dependencies []string) (supported []string, unsupported []string, err error)
 	Check(dependencies []string) (installed []string, pending []string)

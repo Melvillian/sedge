@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NethermindEth/sedge/configs"
+	"github.com/Melvillian/sedge/configs"
 )
 
 func TestSkipLines(t *testing.T) {

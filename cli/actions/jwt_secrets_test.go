@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/NethermindEth/sedge/cli/actions"
+	"github.com/Melvillian/sedge/cli/actions"
 	"github.com/stretchr/testify/assert"
 )
 

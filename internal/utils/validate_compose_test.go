@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/NethermindEth/sedge/test"
+	"github.com/Melvillian/sedge/test"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )

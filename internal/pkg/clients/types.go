@@ -15,7 +15,7 @@ limitations under the License.
 */
 package clients
 
-import "github.com/NethermindEth/sedge/configs"
+import "github.com/Melvillian/sedge/configs"
 
 // Client : Struct Represent a client like geth, prysm, etc
 type Client struct {

@@ -18,12 +18,12 @@ package main
 import (
 	"runtime"
 
-	"github.com/NethermindEth/sedge/cli"
-	"github.com/NethermindEth/sedge/cli/actions"
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
-	"github.com/NethermindEth/sedge/internal/pkg/dependencies"
-	"github.com/NethermindEth/sedge/internal/pkg/services"
-	"github.com/NethermindEth/sedge/internal/ui"
+	"github.com/Melvillian/sedge/cli"
+	"github.com/Melvillian/sedge/cli/actions"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/internal/pkg/dependencies"
+	"github.com/Melvillian/sedge/internal/pkg/services"
+	"github.com/Melvillian/sedge/internal/ui"
 	"github.com/docker/docker/client"
 	log "github.com/sirupsen/logrus"
 )

@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/NethermindEth/sedge/test"
+	"github.com/Melvillian/sedge/test"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"
 )

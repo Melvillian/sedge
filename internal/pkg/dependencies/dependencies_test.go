@@ -21,8 +21,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
-	"github.com/NethermindEth/sedge/test"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/test"
 	"github.com/stretchr/testify/assert"
 )
 

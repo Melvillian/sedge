@@ -19,8 +19,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/pkg/generate"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/pkg/generate"
 	log "github.com/sirupsen/logrus"
 )
 

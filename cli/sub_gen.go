@@ -18,7 +18,7 @@ package cli
 import (
 	"errors"
 
-	"github.com/NethermindEth/sedge/cli/actions"
+	"github.com/Melvillian/sedge/cli/actions"
 	"github.com/spf13/cobra"
 )
 

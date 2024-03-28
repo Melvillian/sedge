@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/NethermindEth/sedge/configs"
+	"github.com/Melvillian/sedge/configs"
 	"github.com/stretchr/testify/assert"
 )
 

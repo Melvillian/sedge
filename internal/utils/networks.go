@@ -16,7 +16,7 @@ limitations under the License.
 package utils
 
 import (
-	"github.com/NethermindEth/sedge/templates"
+	"github.com/Melvillian/sedge/templates"
 )
 
 /*

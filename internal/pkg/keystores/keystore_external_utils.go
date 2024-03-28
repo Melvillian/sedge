@@ -36,7 +36,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/NethermindEth/sedge/configs"
+	"github.com/Melvillian/sedge/configs"
 	"github.com/google/uuid"
 	hbls "github.com/herumi/bls-eth-go-binary/bls"
 	"github.com/protolambda/go-keystorev4"

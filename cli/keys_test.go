@@ -23,11 +23,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
-	"github.com/NethermindEth/sedge/internal/pkg/keystores"
-	"github.com/NethermindEth/sedge/internal/ui"
-	sedge_mocks "github.com/NethermindEth/sedge/mocks"
-	"github.com/NethermindEth/sedge/test"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/internal/pkg/keystores"
+	"github.com/Melvillian/sedge/internal/ui"
+	sedge_mocks "github.com/Melvillian/sedge/mocks"
+	"github.com/Melvillian/sedge/test"
 	"github.com/golang/mock/gomock"
 	log "github.com/sirupsen/logrus"
 )

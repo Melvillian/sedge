@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/NethermindEth/sedge/configs"
+	"github.com/Melvillian/sedge/configs"
 	cmpcli "github.com/compose-spec/compose-go/cli"
 	log "github.com/sirupsen/logrus"
 )

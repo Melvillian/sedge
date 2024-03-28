@@ -3,7 +3,7 @@
 
 # Variables
 SEDGE_VERSION = $(shell git tag | sort | tail -n 1)
-LDFLAGS=-X github.com/NethermindEth/sedge/internal/utils.Version="${SEDGE_VERSION}"
+LDFLAGS=-X github.com/Melvillian/sedge/internal/utils.Version="${SEDGE_VERSION}"
 
 # Commands
 compile: ## compile:

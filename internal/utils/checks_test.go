@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
-	"github.com/NethermindEth/sedge/test"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/test"
 )
 
 type checkContainersTC struct {

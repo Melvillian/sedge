@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/pkg/clients"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/pkg/clients"
 	"github.com/stretchr/testify/assert"
 )
 

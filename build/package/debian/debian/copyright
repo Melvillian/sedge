@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Sedge
 Upstream-Contact: Demerzel Solutions Limited <hello@nethermind.io>
-Source: https://github.com/NethermindEth/sedge
+Source: https://github.com/Melvillian/sedge
 
 Files: *
 Copyright: Copyright (c) 2022 Demerzel Solutions Limited

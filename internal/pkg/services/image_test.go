@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/NethermindEth/sedge/internal/pkg/services"
-	sedge_mocks "github.com/NethermindEth/sedge/mocks"
+	"github.com/Melvillian/sedge/internal/pkg/services"
+	sedge_mocks "github.com/Melvillian/sedge/mocks"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/errdefs"
 	"github.com/golang/mock/gomock"

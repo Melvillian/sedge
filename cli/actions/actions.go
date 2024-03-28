@@ -16,13 +16,13 @@ limitations under the License.
 package actions
 
 import (
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
-	"github.com/NethermindEth/sedge/internal/pkg/generate"
-	"github.com/NethermindEth/sedge/internal/pkg/services"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/internal/pkg/generate"
+	"github.com/Melvillian/sedge/internal/pkg/services"
 	"github.com/docker/docker/client"
 )
 
-//go:generate mockgen -package=sedge_mocks -destination=../../mocks/sedgeActions.go github.com/NethermindEth/sedge/cli/actions SedgeActions
+//go:generate mockgen -package=sedge_mocks -destination=../../mocks/sedgeActions.go github.com/Melvillian/sedge/cli/actions SedgeActions
 type SedgeActions interface {
 	GetCommandRunner() commands.CommandRunner
 	ImportSlashingInterchangeData(SlashingImportOptions) error

@@ -23,14 +23,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NethermindEth/sedge/configs"
-	sedge_mocks "github.com/NethermindEth/sedge/mocks"
+	"github.com/Melvillian/sedge/configs"
+	sedge_mocks "github.com/Melvillian/sedge/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
-	"github.com/NethermindEth/sedge/internal/pkg/dependencies"
-	"github.com/NethermindEth/sedge/test"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/internal/pkg/dependencies"
+	"github.com/Melvillian/sedge/test"
 	log "github.com/sirupsen/logrus"
 )
 

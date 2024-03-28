@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/NethermindEth/sedge/internal/utils"
+	"github.com/Melvillian/sedge/internal/utils"
 	"github.com/stretchr/testify/assert"
 )
 

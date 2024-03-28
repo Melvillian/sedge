@@ -24,14 +24,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/NethermindEth/sedge/internal/crypto"
+	"github.com/Melvillian/sedge/internal/crypto"
 
-	"github.com/NethermindEth/sedge/cli/actions"
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/pkg/clients"
-	"github.com/NethermindEth/sedge/internal/pkg/generate"
-	"github.com/NethermindEth/sedge/internal/ui"
-	"github.com/NethermindEth/sedge/internal/utils"
+	"github.com/Melvillian/sedge/cli/actions"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/pkg/clients"
+	"github.com/Melvillian/sedge/internal/pkg/generate"
+	"github.com/Melvillian/sedge/internal/ui"
+	"github.com/Melvillian/sedge/internal/utils"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

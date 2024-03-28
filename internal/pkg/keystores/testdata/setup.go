@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/NethermindEth/sedge/internal/pkg/keystores"
+	"github.com/Melvillian/sedge/internal/pkg/keystores"
 )
 
 //go:embed valid

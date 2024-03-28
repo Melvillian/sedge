@@ -17,7 +17,7 @@ clean:
 binary-arch: clean
 	dh_prep
 	dh_installdirs
-	cd $(GOPATH)/src/github.com/NethermindEth/sedge/cmd/sedge/ && go install > /dev/null 2>&1
+	cd $(GOPATH)/src/github.com/Melvillian/sedge/cmd/sedge/ && go install > /dev/null 2>&1
 	mkdir -p $(PKGDIR)/usr/bin
 	cp $(GOPATH)/bin/* $(PKGDIR)/usr/bin/
 	dh_strip --no-automatic-dbgsym

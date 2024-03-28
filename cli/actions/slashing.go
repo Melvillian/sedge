@@ -23,9 +23,9 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/pkg/services"
-	"github.com/NethermindEth/sedge/internal/utils"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/pkg/services"
+	"github.com/Melvillian/sedge/internal/utils"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"

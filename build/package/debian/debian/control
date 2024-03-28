@@ -4,7 +4,7 @@ Priority: medium
 Maintainer: Demerzel Solutions Limited <hello@nethermind.io>
 Build-Depends: debhelper (>= 13~) , golang-go
 Standards-Version: 4.6.1
-Homepage: https://github.com/NethermindEth/sedge
+Homepage: https://github.com/Melvillian/sedge
 
 Package: sedge
 Architecture: any

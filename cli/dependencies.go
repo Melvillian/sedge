@@ -19,7 +19,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/NethermindEth/sedge/internal/pkg/dependencies"
+	"github.com/Melvillian/sedge/internal/pkg/dependencies"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

@@ -24,9 +24,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NethermindEth/sedge/cli/actions"
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/test"
+	"github.com/Melvillian/sedge/cli/actions"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/test"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )

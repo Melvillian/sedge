@@ -24,7 +24,7 @@ import (
 
 // notest
 
-//go:generate mockgen -package=sedge_mocks -destination=../../mocks/prompter.go github.com/NethermindEth/sedge/internal/ui Prompter
+//go:generate mockgen -package=sedge_mocks -destination=../../mocks/prompter.go github.com/Melvillian/sedge/internal/ui Prompter
 type Prompter interface {
 	Select(message string, defaultValue string, options []string) (int, error)
 	Confirm(string, bool) (bool, error)

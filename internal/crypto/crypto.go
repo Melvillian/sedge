@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/NethermindEth/sedge/configs"
+	"github.com/Melvillian/sedge/configs"
 )
 
 /*

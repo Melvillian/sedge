@@ -18,11 +18,11 @@ package cli
 import (
 	"path/filepath"
 
-	"github.com/NethermindEth/sedge/cli/actions"
-	"github.com/NethermindEth/sedge/configs"
-	"github.com/NethermindEth/sedge/internal/pkg/commands"
-	"github.com/NethermindEth/sedge/internal/pkg/dependencies"
-	"github.com/NethermindEth/sedge/internal/utils"
+	"github.com/Melvillian/sedge/cli/actions"
+	"github.com/Melvillian/sedge/configs"
+	"github.com/Melvillian/sedge/internal/pkg/commands"
+	"github.com/Melvillian/sedge/internal/pkg/dependencies"
+	"github.com/Melvillian/sedge/internal/utils"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 
