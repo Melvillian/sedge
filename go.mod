@@ -1,4 +1,4 @@
-module github.com/NethermindEth/sedge
+module github.com/Melvillian/sedge
 
 go 1.19
 
